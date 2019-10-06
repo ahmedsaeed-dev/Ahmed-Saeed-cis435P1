@@ -30,9 +30,9 @@
                             Current Courseload
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="cis435.html">CIS 435</a>
-                            <a class="dropdown-item" href="cis4962.html">CIS 4962</a>
-                            <a class="dropdown-item" href="engr400.html">ENGR 400</a>
+                            <a id="dropdown-list" class="dropdown-item" href="cis435.html">CIS 435</a>
+                            <a id="dropdown-list" class="dropdown-item" href="cis4962.html">CIS 4962</a>
+                            <a id="dropdown-list" class="dropdown-item" href="engr400.html">ENGR 400</a>
                         </div>
                     </li>   
                 </ul>
@@ -43,8 +43,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <h2>Ahmed L Saeed</h2>
-                    <h6></h6>
-                    <div class="img_outline"><img class="profile_img" src="images/profile_img.jpg" alt=""></div>
+                    <div onclick="window.location.href='index.html'"  class="img_outline"><img class="profile_img" src="images/profile_img.jpg" alt=""></div>
                     <br>
                     <p>Hi! I'm Ahmed, a software engineering major at UM-Dearborn. I'm a person who loves learning and teaching. One of my favorite quotes is</p>
                         <p id="quote"><i>"Learn as if you are immortal...<br>
@@ -52,30 +51,32 @@
                     <h3>Current Courseload</h3>
                     <p>Click the links below to visit pages on the site!</p>
                     <ul class="nav nav-pills flex-column">
-                    <li class="nav-item">
-                        <a href="cis435.html"><button type="button" class="btn btn-secondary btn-lg btn-block">CIS 435</button></a><br>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-secondary btn-lg btn-block">CIS 4962</button><br>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-secondary btn-lg btn-block">ENGR 400</button>
-                    </li>
+                        <li class="nav-item">
+                            <button onclick="window.location.href='cis435.html'" type="button" class="btn btn-secondary btn-lg btn-block">CIS 435</button><br>
+                        </li>
+                        <li class="nav-item">
+                        <button onclick="window.location.href='cis4962.html'" type="button" class="btn btn-secondary btn-lg btn-block">CIS 4962</button><br>
+                        </li>
+                        <li class="nav-item">
+                            <button onclick="window.location.href='engr400.html'" type="button" class="btn btn-secondary btn-lg btn-block">ENGR 400</button><br>
+                        </li>
                     </ul>
                     <hr class="d-sm-none">
                 </div>
+                
                 <div class="col-sm-8">
-                    <h2>TITLE HEADING</h2>
-                    <h5>Title description, Dec 7, 2017</h5>
-                    <div class="fakeimg">Fake Image</div>
-                    <p>Some text..</p>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <h2>My New Car!</h2>
+                    <h5>10/05/2019</h5>
+                    <div><img class="truck_image" src="images/f150.jpg" alt=""></div>
                     <br>
-                    <h2>TITLE HEADING</h2>
-                    <h5>Title description, Sep 2, 2017</h5>
-                    <div class="fakeimg">Fake Image</div>
-                    <p>Some text..</p>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <p>A few weeks ago, I leased a new car! Trucks are my favorite type of car and I always loved the color cherry red. After my old lease was up, I saw this in the lot and I knew I had to have it.</p>
+                    <br>
+
+                    <h2>My Favorite Pokemon</h2>
+                    <h5>10/01/2019</h5>
+                    <div><img class="pokemon_image" src="images/pokemon.gif" alt=""></div>
+                    <br>
+                    <p>My favorite Pokemon is Krookodile. I like the color scheme and the fact that it's eyes look like sun-glasses.</p>
                 </div>
             </div>
         </div>

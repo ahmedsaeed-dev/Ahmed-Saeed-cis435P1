@@ -4,18 +4,18 @@
   }
 
 .pokemon_image {
-  height: 250px;
-  width: auto;
+  height: 10em;
+  width: 20em;
 }
 
 .truck_image {
-  height: 400px;
-  width: 700px;
+  height: 10em;
+  width: 20em;
 }
 
 .img_outline{
   height: 225px;
-  width: 325px;
+  width: auto;
   background: rgba(255,255,255,.5);
   cursor: pointer;
 }
